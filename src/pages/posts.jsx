@@ -1,12 +1,13 @@
 
-
 const Posts = ({ post }) => {
     return (
         <>
+
             <div className="card">
-                <p>{post.item}</p>
-                <p>{post.summary}</p>
+                <p className="fw-bold">{post.item}</p>
+                <p className="text-justify">{post.summary}</p>
             </div>
+
         </>
     )
 }

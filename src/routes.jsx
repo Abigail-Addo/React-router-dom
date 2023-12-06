@@ -6,7 +6,7 @@ import Card from './pages/postLists'
 const Router = () => {
 
     // jsx way of defining routes
-    
+
     // plain object way of defining routes
     const router = createBrowserRouter([
         {
@@ -14,13 +14,16 @@ const Router = () => {
             element: <Home />,
             children: [
                 {
-                    path: '/add-new-item',
-                    element: <NewItem />
+                    path: '/',
+                    element: <Card />,
+                    children: [
+                        {
+                            path: '/add-new-item',
+                            element: <NewItem />
+                        },
+                    ]
                 },
-                {
-                    index: true,
-                    element: <Card />
-                },
+
             ],
         }
     ])

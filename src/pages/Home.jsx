@@ -1,4 +1,4 @@
-import '../assets/css/home.module.css'
+import '../assets/css/home.css'
 import Navbar from '../components/navbar'
 import { Outlet } from 'react-router-dom'
 

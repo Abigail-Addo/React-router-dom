@@ -2,13 +2,15 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
+import { useNavigate } from 'react-router-dom';
 
 const NewItem = () => {
 
+    const redirect = useNavigate();
+
     const [show, setShow] = useState(true);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const handleClose = () => redirect(-1);
 
     return (
         <>

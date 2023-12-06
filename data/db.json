@@ -1,0 +1,19 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "item": "Watch k drama",
+            "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem explicabo natus expedita consequatur impedit esse molestiae ad dolorum repellendus sapiente."
+        },
+        {
+            "id": 2,
+            "item": "Watch k drama",
+            "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem explicabo natus expedita consequatur impedit esse molestiae ad dolorum repellendus sapiente."
+        },
+        {
+            "id": 3,
+            "item": "Watch k drama",
+            "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem explicabo natus expedita consequatur impedit esse molestiae ad dolorum repellendus sapiente."
+        }
+    ]
+}
