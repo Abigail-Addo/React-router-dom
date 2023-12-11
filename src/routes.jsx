@@ -20,6 +20,7 @@ const Router = () => {
                         {
                             path: '/add-new-item',
                             element: <NewItem />
+
                         },
                     ]
                 },
