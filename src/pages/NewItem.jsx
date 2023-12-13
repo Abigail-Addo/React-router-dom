@@ -41,11 +41,9 @@ const NewItem = () => {
 
             if (response.status == 200 || response.status == 201) {
                 const newItem = await response.json();
+                handleClose();
                 setPosts([...posts, newItem]);
-                    handleClose();
-                setTimeout(() => {
-                    toast.success('Item added successfully');
-                }, 1000)
+                toast.success('Item added successfully');
             } else {
                 toast.error('An error occurred');
             }

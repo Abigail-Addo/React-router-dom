@@ -1,24 +1,14 @@
 {
   "posts": [
     {
-      "id": 1,
       "item": "Watch k drama",
-      "summary": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem explicabo natus expedita consequatur impedit esse molestiae ad dolorum repellendus sapiente."
+      "summary": "King the land",
+      "id": 1
     },
     {
-      "item": "ooooooooooooooo",
-      "summary": "ddddddddddd",
+      "item": "Go to class",
+      "summary": "Div",
       "id": 2
-    },
-    {
-      "item": "nnnnnnnnnnnnnn",
-      "summary": "nnnnnnnnnnnnnnnnnnn",
-      "id": 4
-    },
-    {
-      "item": "nnnnnnnnnnn",
-      "summary": "jjjjjjjjjjjjjjjjjjj",
-      "id": 5
     }
   ]
 }
